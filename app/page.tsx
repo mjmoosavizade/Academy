@@ -1,6 +1,7 @@
 import {Banner} from "@/app/components/Banner";
 import Courses from "@/app/components/Courses"
 import React from "react";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -21,6 +22,9 @@ export default function Home() {
             </div>
             <div className="flex justify-center	">
                 <Courses/>
+            </div>
+            <div className="flex justify-center mt-12">
+                <Image src="/images/achiv.png" alt="Logo" width={600} height={600} className="m-0"/>
             </div>
         </main>
     )

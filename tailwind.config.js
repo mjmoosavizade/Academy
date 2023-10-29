@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-IRANSans)']
+      },
+      backgroundImage: {
+        'footer-texture': "url('../public/images/Footer.png')",
       }
     },
   },
