@@ -2,9 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="mt-16">
+        <footer className="mt-16 bg-footer-texture">
             <div className="mx-auto
-            max-w-screen-xl
             px-4
             py-12
             sm:px-6
