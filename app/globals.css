@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
 }
 
 /*@media (prefers-color-scheme: dark) {*/
@@ -16,12 +16,24 @@
 /*  }*/
 /*}*/
 
+@font-face {
+    font-family: Morabba ;
+    src: url("../public/fonts/Morabba-Regular.woff2");
+}
+
+@font-face {
+    font-family: Morabba ;
+    src: url("../public/fonts/Morabba-Bold.woff2");
+    font-weight: bold;
+}
+
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: "Morabba" !important;
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))
+    ) rgb(var(--background-start-rgb));
 }
